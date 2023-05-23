@@ -1,14 +1,14 @@
 
 ul{
-    margin: 0;
+    margin: 0 0 0 250px;
     padding: 2px 0px;
     list-style: none;
     position:absolute;
     width: 100%;
     
     /* Box */
-    height: 36px;
-    line-height: 36px;
+    height: 32px;
+    line-height: 32px;
     background-color: #000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px; 
@@ -24,21 +24,26 @@ li{
     color: #fff;
     text-decoration: none;
  } 
- a:hover, .active a{
+ ul a:hover, .active a{
     background-color: #156ee2;
  }
 
- #header{
-   left: 0;
-   top: 0;
- }
  #logo{
+  position: absolute;
+   margin-top: 5px;
+   margin-left: 10px;
+   
+   font-family: 'Poppins';
+   font-size: 20px;
+   font-weight: 100;
+   color: rgb(255, 255, 255);   
  justify-items:auto;
  }
  #header{
+    left: 0;
+    top: 0;
     display:flex;
     justify-content: space-between;
-    align-items: center;
  }
  .container{
    display: flex;
@@ -49,7 +54,7 @@ li{
     scroll-behavior: smooth;
  }
 .banner img{
-    max-width: 100%;
+    max-width: 110%;
     vertical-align: top;
     size: 300px;
 }
@@ -63,15 +68,19 @@ li{
 }
 .services-section{
    background-color:#dbfbf4;
+    width: 110%;
 }
 .blogs-section{
    background-color: #c5f1e8;
+   width: 110%;
 }
 .team-section{
    background-color: #afe9dd;
+   width: 110%;
 }
 .contact-section{
    background-color: #a3d6e6;
+   width: 110%;
 }
 
 .wrapper{
