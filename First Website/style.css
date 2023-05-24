@@ -1,22 +1,25 @@
 
+*{
+   padding: 0;
+   margin: 0;
+}
 ul{
     margin: 0 0 0 250px;
-    padding: 2px 0px;
+    padding: 0;
     list-style: none;
     position:absolute;
-    width: 100%;
+    width: 55%;
     
     /* Box */
-    height: 32px;
-    line-height: 32px;
-    background-color: #000;
+    height: 36px;
+    line-height: 36px;
+    background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px; 
 }
 li{
     float: left;
-   
-    border-right: 1px solid #156ee2 ;
+    border-right:1px solid #156ee2 ;
   }
  a{
     display: block;
@@ -27,17 +30,16 @@ li{
  ul a:hover, .active a{
     background-color: #156ee2;
  }
-
- #logo{
-  position: absolute;
+ .logo{
+   position: absolute;
    margin-top: 5px;
    margin-left: 10px;
    
    font-family: 'Poppins';
    font-size: 20px;
    font-weight: 100;
-   color: rgb(255, 255, 255);   
- justify-items:auto;
+   color: rgb(255, 255, 255);
+   justify-items:auto;
  }
  #header{
     left: 0;
@@ -48,13 +50,13 @@ li{
  .container{
    display: flex;
    flex-direction: column;
-   align-items: flex-start;
+   align-items: center;
  }
  body,html{
     scroll-behavior: smooth;
  }
 .banner img{
-    max-width: 110%;
+    width: 100%;
     vertical-align: top;
     size: 300px;
 }
@@ -68,19 +70,20 @@ li{
 }
 .services-section{
    background-color:#dbfbf4;
-    width: 110%;
+   width: 100%;
+   justify-content: center;
 }
 .blogs-section{
    background-color: #c5f1e8;
-   width: 110%;
+   width: 100%;
 }
 .team-section{
    background-color: #afe9dd;
-   width: 110%;
+   width: 100%;
 }
 .contact-section{
    background-color: #a3d6e6;
-   width: 110%;
+   width: 100%;
 }
 
 .wrapper{
@@ -93,11 +96,14 @@ li{
    width: 50%;
    margin: 0 auto;
    
+   align-items: center;
    margin-bottom: 60px;
-   text-align: center;
+   
 
 }
 .services p{
+   
+   text-align: center;
    line-height: 25px;
 }
 .section-1{
@@ -108,7 +114,9 @@ li{
 }
 .section-1 img{
    width: 90%;
+  
 }
+
 .section-1 p{
    font-size: 12px;
    line-height: 19px;
